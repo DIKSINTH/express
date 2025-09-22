@@ -4,7 +4,7 @@ routes.get("/input", (req, res, next) => {
   res.send(`
     <body>
       <h1>Add Name</h1>
-      <form action="/output" method="POST">
+      <form action="/admin/output" method="POST">
         <input type="text" name="username" />
         <input type="submit" />
       </form>
